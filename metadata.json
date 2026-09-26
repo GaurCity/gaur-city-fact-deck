@@ -1,0 +1,6 @@
+{
+  "name": "QuirkBites — Fun Daily Facts & Goofy Trivia",
+  "description": "Generate mind-boggling, daily-life connected fun facts across the human body, history, science, and literature with goofy retro typography and instant social media share cards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

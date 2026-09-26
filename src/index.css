@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bungee", cursive, sans-serif;
+  --font-goofy: "Fredoka", cursive, sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .retro-shadow-sm {
+    box-shadow: 2px 2px 0px #000000;
+  }
+  .retro-shadow {
+    box-shadow: 4px 4px 0px #000000;
+  }
+  .retro-shadow-lg {
+    box-shadow: 7px 7px 0px #000000;
+  }
+  .retro-shadow-xl {
+    box-shadow: 10px 10px 0px #000000;
+  }
+  .retro-border {
+    border: 3px solid #000000;
+  }
+  .retro-border-sm {
+    border: 2px solid #000000;
+  }
+}
+
+@keyframes gentle-wobble {
+  0%, 100% { transform: rotate(-1deg); }
+  50% { transform: rotate(1.5deg); }
+}
+
+.animate-wobble-slow {
+  animation: gentle-wobble 4s ease-in-out infinite;
+}
+
